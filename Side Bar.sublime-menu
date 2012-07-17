@@ -1,0 +1,4 @@
+[
+    { "caption": "-" , "id":"side-bar-end-separator"},
+    { "caption": "Diff in Meld", "command": "meld_diff", "args": {"files": []} }
+]
