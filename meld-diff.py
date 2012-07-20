@@ -13,5 +13,7 @@ class MeldDiffCommand(sublime_plugin.WindowCommand):
         return
 
     def is_visible(self, files):
-        lenFiles = len(files)
-        return (lenFiles >= 2 and lenFiles <= 3)
+        if (os.path.exists(MELD_BIN_PATH)):
+            lenFiles = len(files)
+            return (lenFiles >= 2 and lenFiles <= 3)
+        return false
