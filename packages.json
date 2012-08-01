@@ -2,7 +2,7 @@
     "schema_version": "1.2",
     "packages": [
         {
-            "name": "sublime-text-2-meld-diff",
+            "name": "meld-diff",
             "description": "Add diff files in Meld option in side bar menu.",
             "author": "Michal Prochowski <michal@prochowski.pl>",
             "homepage": "https://github.com/mablo/sublime-text-2-meld-diff",
