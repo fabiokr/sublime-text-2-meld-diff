@@ -6,7 +6,7 @@
             "description": "Add diff files in Meld option in side bar menu.",
             "author": "Michal Prochowski <michal@prochowski.pl>",
             "homepage": "https://github.com/mablo/sublime-text-2-meld-diff",
-            "last_modified": "2012-07-21 01:20:00",
+            "last_modified": "2013-01-15 15:00:00",
             "platforms": {
                 "linux": [
                     {
