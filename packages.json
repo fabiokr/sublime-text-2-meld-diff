@@ -10,8 +10,8 @@
             "platforms": {
                 "linux": [
                     {
-                        "version": "1.0.0",
-                        "url": "https://nodeload.github.com/mablo/sublime-text-2-meld-diff/zipball/1.0.0"
+                        "version": "1.0.1",
+                        "url": "https://nodeload.github.com/mablo/sublime-text-2-meld-diff/zipball/1.0.1"
                     }
                 ]
             }
