@@ -25,7 +25,7 @@ class MeldDiffCommand(sublime_plugin.WindowCommand):
 class MeldDiffQuickPanelCommand(sublime_plugin.WindowCommand):
     def run(self, index=None):
         self.open_files = self.__current_open_files()
-
+	
         if len(self.open_files) > 0:
             self.window.show_quick_panel(self.open_files, self.__meld)
         else:
@@ -41,4 +41,5 @@ class MeldDiffQuickPanelCommand(sublime_plugin.WindowCommand):
         # Ignores current file
         files.remove(self.window.active_view().file_name())
 
-        return files
+        # Clears nil elements
+        return [file for file in files if file != None]
